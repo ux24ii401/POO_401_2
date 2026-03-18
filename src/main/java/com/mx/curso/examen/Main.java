@@ -6,13 +6,12 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        // polimorfismo: lista con diferentes subclases
+        // polimorfismo
         List<AgenteConversacional> agentes = new ArrayList<>();
 
-        agentes.add(new AgenteSaludo("Agente 1"));
-        agentes.add(new AgenteDespedida("Agente 2"));
+        agentes.add(new AgenteVentas("Agente Ventas"));
+        agentes.add(new AgenteSoporte("Agente Soporte"));
 
-        // polimorfismo: mismo método, distinto resultado
         for (AgenteConversacional agente : agentes) {
             agente.responder("Hola");
         }
