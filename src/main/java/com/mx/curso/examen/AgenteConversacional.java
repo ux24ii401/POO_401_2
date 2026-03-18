@@ -1,17 +1,17 @@
 package com.mx.curso.examen;
 
-// ABSTRACCIÓN: Clase abstracta base
+// abstraccion: Clase abstracta base
 public abstract class AgenteConversacional {
 
-    // Encapsulamiento: atributo privado
+    // encapsulamiento: atributo privado
     private String nombre;
 
-    // Constructor
+    // constructor
     public AgenteConversacional(String nombre) {
         this.nombre = nombre;
     }
 
-    // Getter (solo el necesario)
+    // getter
     public String getNombre() {
         return nombre;
     }
