@@ -1,7 +1,7 @@
 package com.mx.curso.unidad2.practica04;
 
 public class Main {
-
+//
     public static void main(String[] args) {
 
         SensorIA[] sensores = new SensorIA[3];
