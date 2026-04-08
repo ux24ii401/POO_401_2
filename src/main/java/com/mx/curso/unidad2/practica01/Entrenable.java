@@ -1,4 +1,4 @@
-package com.mx.curso.unidad2.interfaces;
+package com.mx.curso.unidad2.practica01;
 
 interface SeriaLizable{
 
